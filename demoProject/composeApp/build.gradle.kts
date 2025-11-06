@@ -44,7 +44,3 @@ compose.desktop {
         }
     }
 }
-
-tasks.withType<ComposeHotRun>().configureEach {
-    this.isAutoReloadEnabled = false
-}
